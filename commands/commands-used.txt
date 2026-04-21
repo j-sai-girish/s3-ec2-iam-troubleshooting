@@ -1,0 +1,6 @@
+# Install AWS CLI
+sudo dnf update
+sudo dnf install awscli -y
+
+# Check S3 access
+aws s3 ls s3://ec2-s3-private
